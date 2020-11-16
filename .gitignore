@@ -5,3 +5,4 @@ rev-manifest.json
 error.log
 npm-debug.log*
 yarn-error.log
+./public/

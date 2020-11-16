@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "yarn workspace @local/ui build"
+    "build": "yarn workspace @local/ui build && rm -rf public && mv ui/build public"
   },
   "workspaces": [
     "ui",
