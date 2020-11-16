@@ -1,0 +1,19 @@
+{
+  "name": "@local/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only index.ts",
+    "serve": "ts-node --transpile-only index.ts"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "node-fetch": "2.6.1",
+    "ts-node": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.9",
+    "ts-node-dev": "1.0.0",
+    "@vercel/node": "1.8.5"
+  }
+}

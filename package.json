@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "build": "yarn workspace @local/ui build"
+  },
+  "workspaces": [
+    "ui",
+    "server",
+    "localtypes"
+  ],
+  "name": "gta-hyundai-inventory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "typescript": "4.0.5"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "1.0.7",
+    "@types/node-fetch": "2.5.7"
+  }
+}
