@@ -13,9 +13,5 @@
   "private": true,
   "dependencies": {
     "typescript": "4.0.5"
-  },
-  "devDependencies": {
-    "@tsconfig/node12": "1.0.7",
-    "@types/node-fetch": "2.5.7"
   }
 }
